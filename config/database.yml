@@ -20,6 +20,7 @@ default: &default
   host: db
   username: postgres
   password: postgres
+  pool: 5
 development:
   <<: *default
   database: a_r_practice_development
